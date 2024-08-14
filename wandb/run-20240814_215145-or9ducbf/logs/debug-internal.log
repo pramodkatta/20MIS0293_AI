@@ -1,0 +1,259 @@
+2024-08-14 21:51:45,726 INFO    StreamThr :17772 [internal.py:wandb_internal():86] W&B internal server running at pid: 17772, started at: 2024-08-14 21:51:45.726985
+2024-08-14 21:51:45,731 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status
+2024-08-14 21:51:45,735 INFO    WriterThread:17772 [datastore.py:open_for_write():85] open: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\run-or9ducbf.wandb
+2024-08-14 21:51:45,737 DEBUG   SenderThread:17772 [sender.py:send():375] send: header
+2024-08-14 21:51:45,799 DEBUG   SenderThread:17772 [sender.py:send():375] send: run
+2024-08-14 21:51:46,577 INFO    SenderThread:17772 [dir_watcher.py:__init__():219] watching files in: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files
+2024-08-14 21:51:46,577 INFO    SenderThread:17772 [sender.py:_start_run_threads():1124] run started: or9ducbf with start time 1723652505.731508
+2024-08-14 21:51:46,577 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: summary_record
+2024-08-14 21:51:46,578 INFO    SenderThread:17772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-08-14 21:51:46,579 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: check_version
+2024-08-14 21:51:46,580 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: check_version
+2024-08-14 21:51:46,896 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: run_start
+2024-08-14 21:51:46,920 DEBUG   HandlerThread:17772 [system_info.py:__init__():31] System info init
+2024-08-14 21:51:46,920 DEBUG   HandlerThread:17772 [system_info.py:__init__():46] System info init done
+2024-08-14 21:51:46,920 INFO    HandlerThread:17772 [system_monitor.py:start():181] Starting system monitor
+2024-08-14 21:51:46,920 INFO    SystemMonitor:17772 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-08-14 21:51:46,921 INFO    HandlerThread:17772 [system_monitor.py:probe():201] Collecting system info
+2024-08-14 21:51:46,926 INFO    SystemMonitor:17772 [interfaces.py:start():190] Started cpu monitoring
+2024-08-14 21:51:46,933 DEBUG   HandlerThread:17772 [system_info.py:probe():195] Probing system
+2024-08-14 21:51:46,933 INFO    SystemMonitor:17772 [interfaces.py:start():190] Started disk monitoring
+2024-08-14 21:51:46,944 INFO    SystemMonitor:17772 [interfaces.py:start():190] Started memory monitoring
+2024-08-14 21:51:46,956 INFO    SystemMonitor:17772 [interfaces.py:start():190] Started network monitoring
+2024-08-14 21:51:46,967 DEBUG   HandlerThread:17772 [system_info.py:_probe_git():180] Probing git
+2024-08-14 21:51:47,069 DEBUG   HandlerThread:17772 [system_info.py:_probe_git():188] Probing git done
+2024-08-14 21:51:47,069 DEBUG   HandlerThread:17772 [system_info.py:probe():240] Probing system done
+2024-08-14 21:51:47,069 DEBUG   HandlerThread:17772 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.10.11', 'heartbeatAt': '2024-08-14T16:21:46.933435', 'startedAt': '2024-08-14T16:21:45.711043', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\Pramo\\trademarkia-classifier\\src\\train1.py', 'codePath': 'src\\train1.py', 'git': {'remote': None, 'commit': '426de884820c1df0d40d0b7ba34bdb44759ffbd8'}, 'email': 'pramodkatta1@gmail.com', 'root': 'C:/Users/Pramo/trademarkia-classifier', 'host': 'Pramod', 'username': 'pramod1', 'executable': 'C:\\Users\\Pramo\\trademarkia-classifier\\venv\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 991.0, 'min': 0.0, 'max': 1190.0}, 'cpu_freq_per_core': [{'current': 991.0, 'min': 0.0, 'max': 1190.0}], 'disk': {'total': 343.85448837280273, 'used': 310.84212493896484}, 'memory': {'total': 11.748180389404297}}
+2024-08-14 21:51:47,069 INFO    HandlerThread:17772 [system_monitor.py:probe():211] Finished collecting system info
+2024-08-14 21:51:47,069 INFO    HandlerThread:17772 [system_monitor.py:probe():214] Publishing system info
+2024-08-14 21:51:47,070 DEBUG   HandlerThread:17772 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-08-14 21:51:47,070 DEBUG   HandlerThread:17772 [system_info.py:_save_pip():67] Saving pip packages done
+2024-08-14 21:51:47,072 INFO    HandlerThread:17772 [system_monitor.py:probe():216] Finished publishing system info
+2024-08-14 21:51:47,076 DEBUG   SenderThread:17772 [sender.py:send():375] send: files
+2024-08-14 21:51:47,076 INFO    SenderThread:17772 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-08-14 21:51:47,088 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:51:47,088 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:51:47,467 DEBUG   SenderThread:17772 [sender.py:send():375] send: telemetry
+2024-08-14 21:51:47,586 INFO    Thread-16 :17772 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\output.log
+2024-08-14 21:51:47,586 INFO    Thread-16 :17772 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\wandb-summary.json
+2024-08-14 21:51:47,587 INFO    Thread-16 :17772 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\requirements.txt
+2024-08-14 21:51:47,587 INFO    Thread-16 :17772 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\wandb-metadata.json
+2024-08-14 21:51:48,167 INFO    wandb-upload_0:17772 [upload_job.py:push():137] Uploaded file C:\Users\Pramo\AppData\Local\Temp\tmpik3vq6_3wandb\hnwbmwcn-wandb-metadata.json
+2024-08-14 21:51:49,611 INFO    Thread-16 :17772 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\output.log
+2024-08-14 21:51:50,615 INFO    Thread-16 :17772 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\output.log
+2024-08-14 21:51:51,103 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:51:56,146 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:01,197 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:02,109 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:52:02,110 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:52:06,516 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:11,562 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:16,604 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:17,115 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:52:17,115 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:52:17,906 INFO    Thread-16 :17772 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\config.yaml
+2024-08-14 21:52:22,494 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:27,551 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:32,134 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:52:32,135 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:52:32,574 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:37,633 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:42,674 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:46,964 DEBUG   SystemMonitor:17772 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-08-14 21:52:46,965 DEBUG   SenderThread:17772 [sender.py:send():375] send: stats
+2024-08-14 21:52:47,160 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:52:47,161 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:52:48,535 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:53,591 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:52:58,650 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:02,156 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:53:02,157 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:53:04,604 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:09,660 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:14,701 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:16,970 DEBUG   SenderThread:17772 [sender.py:send():375] send: stats
+2024-08-14 21:53:17,156 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:53:17,157 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:53:20,620 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:25,677 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:30,743 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:32,166 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:53:32,167 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:53:36,570 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:41,600 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:46,657 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:46,971 DEBUG   SenderThread:17772 [sender.py:send():375] send: stats
+2024-08-14 21:53:47,176 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:53:47,177 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:53:51,687 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:53:56,734 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:01,796 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:02,171 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:54:02,172 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:54:07,634 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:12,684 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:16,972 DEBUG   SenderThread:17772 [sender.py:send():375] send: stats
+2024-08-14 21:54:17,184 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:54:17,187 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:54:18,590 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:23,638 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:28,699 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:32,196 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:54:32,199 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:54:34,569 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:39,618 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:44,671 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:46,978 DEBUG   SenderThread:17772 [sender.py:send():375] send: stats
+2024-08-14 21:54:47,215 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:54:47,216 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:54:50,651 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:54:55,708 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:00,764 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:02,220 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:55:02,222 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:55:06,670 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:11,703 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:16,763 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:16,988 DEBUG   SenderThread:17772 [sender.py:send():375] send: stats
+2024-08-14 21:55:17,224 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:55:17,224 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:55:22,660 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:27,713 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:32,245 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:55:32,245 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:55:33,601 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:38,653 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:43,708 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:46,993 DEBUG   SenderThread:17772 [sender.py:send():375] send: stats
+2024-08-14 21:55:47,245 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:55:47,246 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:55:49,658 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:54,712 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:55:59,750 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:56:02,252 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-14 21:56:02,253 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: stop_status
+2024-08-14 21:56:05,654 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:56:07,206 DEBUG   SenderThread:17772 [sender.py:send():375] send: exit
+2024-08-14 21:56:07,207 INFO    SenderThread:17772 [sender.py:send_exit():598] handling exit code: 255
+2024-08-14 21:56:07,207 INFO    SenderThread:17772 [sender.py:send_exit():600] handling runtime: 260
+2024-08-14 21:56:07,208 INFO    SenderThread:17772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-08-14 21:56:07,209 INFO    SenderThread:17772 [sender.py:send_exit():606] send defer
+2024-08-14 21:56:07,209 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:07,210 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 0
+2024-08-14 21:56:07,210 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:07,210 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-14 21:56:07,210 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 1
+2024-08-14 21:56:07,210 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:07,211 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 1
+2024-08-14 21:56:07,211 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:07,211 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-14 21:56:07,211 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 2
+2024-08-14 21:56:07,211 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:07,212 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 2
+2024-08-14 21:56:07,212 INFO    HandlerThread:17772 [system_monitor.py:finish():190] Stopping system monitor
+2024-08-14 21:56:07,212 DEBUG   SystemMonitor:17772 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-08-14 21:56:07,212 INFO    HandlerThread:17772 [interfaces.py:finish():202] Joined cpu monitor
+2024-08-14 21:56:07,212 DEBUG   SystemMonitor:17772 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-08-14 21:56:07,212 INFO    HandlerThread:17772 [interfaces.py:finish():202] Joined disk monitor
+2024-08-14 21:56:07,213 INFO    HandlerThread:17772 [interfaces.py:finish():202] Joined memory monitor
+2024-08-14 21:56:07,213 INFO    HandlerThread:17772 [interfaces.py:finish():202] Joined network monitor
+2024-08-14 21:56:07,214 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:07,214 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-14 21:56:07,214 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 3
+2024-08-14 21:56:07,214 DEBUG   SenderThread:17772 [sender.py:send():375] send: stats
+2024-08-14 21:56:07,214 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:07,214 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 3
+2024-08-14 21:56:07,215 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:07,215 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-14 21:56:07,215 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 4
+2024-08-14 21:56:07,215 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:07,215 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 4
+2024-08-14 21:56:07,216 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:07,216 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-14 21:56:07,216 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 5
+2024-08-14 21:56:07,216 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:07,216 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 5
+2024-08-14 21:56:07,217 DEBUG   SenderThread:17772 [sender.py:send():375] send: summary
+2024-08-14 21:56:07,217 INFO    SenderThread:17772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-08-14 21:56:07,218 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:07,218 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-14 21:56:07,218 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 6
+2024-08-14 21:56:07,219 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:07,219 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 6
+2024-08-14 21:56:07,219 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:07,219 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-14 21:56:07,219 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 7
+2024-08-14 21:56:07,220 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: status_report
+2024-08-14 21:56:07,220 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:07,220 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 7
+2024-08-14 21:56:07,220 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:07,220 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-14 21:56:07,281 INFO    Thread-16 :17772 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\wandb-summary.json
+2024-08-14 21:56:08,235 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: poll_exit
+2024-08-14 21:56:09,290 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 8
+2024-08-14 21:56:09,291 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: poll_exit
+2024-08-14 21:56:09,291 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:09,292 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 8
+2024-08-14 21:56:09,293 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:09,293 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-14 21:56:09,296 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 9
+2024-08-14 21:56:09,296 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:09,297 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 9
+2024-08-14 21:56:09,297 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:09,297 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-14 21:56:09,298 INFO    SenderThread:17772 [dir_watcher.py:finish():365] shutting down directory watcher
+2024-08-14 21:56:09,307 INFO    SenderThread:17772 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\output.log
+2024-08-14 21:56:09,309 INFO    SenderThread:17772 [dir_watcher.py:finish():395] scan: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files
+2024-08-14 21:56:09,310 INFO    SenderThread:17772 [dir_watcher.py:finish():409] scan save: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\config.yaml config.yaml
+2024-08-14 21:56:09,310 INFO    SenderThread:17772 [dir_watcher.py:finish():409] scan save: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\output.log output.log
+2024-08-14 21:56:09,315 INFO    SenderThread:17772 [dir_watcher.py:finish():409] scan save: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\requirements.txt requirements.txt
+2024-08-14 21:56:09,318 INFO    SenderThread:17772 [dir_watcher.py:finish():409] scan save: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\wandb-metadata.json wandb-metadata.json
+2024-08-14 21:56:09,319 INFO    SenderThread:17772 [dir_watcher.py:finish():409] scan save: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\wandb-summary.json wandb-summary.json
+2024-08-14 21:56:09,320 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 10
+2024-08-14 21:56:09,320 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:09,320 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 10
+2024-08-14 21:56:09,321 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:09,321 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-14 21:56:09,321 INFO    SenderThread:17772 [file_pusher.py:finish():168] shutting down file pusher
+2024-08-14 21:56:10,433 INFO    wandb-upload_1:17772 [upload_job.py:push():137] Uploaded file C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\output.log
+2024-08-14 21:56:10,435 INFO    wandb-upload_0:17772 [upload_job.py:push():137] Uploaded file C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\config.yaml
+2024-08-14 21:56:10,536 INFO    wandb-upload_3:17772 [upload_job.py:push():137] Uploaded file C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\wandb-summary.json
+2024-08-14 21:56:10,549 INFO    wandb-upload_2:17772 [upload_job.py:push():137] Uploaded file C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\files\requirements.txt
+2024-08-14 21:56:10,758 INFO    Thread-15 (_thread_body):17772 [sender.py:transition_state():626] send defer: 11
+2024-08-14 21:56:10,759 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:10,759 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 11
+2024-08-14 21:56:10,760 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:10,761 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-08-14 21:56:10,761 INFO    SenderThread:17772 [file_pusher.py:join():173] waiting for file pusher
+2024-08-14 21:56:10,761 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 12
+2024-08-14 21:56:10,761 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:10,762 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 12
+2024-08-14 21:56:10,762 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:10,762 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-08-14 21:56:11,833 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 13
+2024-08-14 21:56:11,834 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:11,834 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 13
+2024-08-14 21:56:11,835 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:11,835 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-08-14 21:56:11,835 INFO    SenderThread:17772 [sender.py:transition_state():626] send defer: 14
+2024-08-14 21:56:11,836 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: defer
+2024-08-14 21:56:11,836 INFO    HandlerThread:17772 [handler.py:handle_request_defer():170] handle defer: 14
+2024-08-14 21:56:11,837 DEBUG   SenderThread:17772 [sender.py:send():375] send: final
+2024-08-14 21:56:11,837 DEBUG   SenderThread:17772 [sender.py:send():375] send: footer
+2024-08-14 21:56:11,837 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: defer
+2024-08-14 21:56:11,837 INFO    SenderThread:17772 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-08-14 21:56:11,838 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: poll_exit
+2024-08-14 21:56:11,839 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: server_info
+2024-08-14 21:56:11,839 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: get_summary
+2024-08-14 21:56:11,839 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: sampled_history
+2024-08-14 21:56:11,841 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: poll_exit
+2024-08-14 21:56:11,841 DEBUG   SenderThread:17772 [sender.py:send_request():402] send_request: server_info
+2024-08-14 21:56:12,535 INFO    MainThread:17772 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2024-08-14 21:56:12,535 INFO    MainThread:17772 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2024-08-14 21:56:12,535 INFO    MainThread:17772 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2024-08-14 21:56:12,538 DEBUG   HandlerThread:17772 [handler.py:handle_request():144] handle_request: shutdown
+2024-08-14 21:56:12,538 INFO    HandlerThread:17772 [handler.py:finish():845] shutting down handler
+2024-08-14 21:56:12,846 INFO    WriterThread:17772 [datastore.py:close():298] close: C:\Users\Pramo\trademarkia-classifier\wandb\run-20240814_215145-or9ducbf\run-or9ducbf.wandb
+2024-08-14 21:56:13,536 INFO    SenderThread:17772 [sender.py:finish():1550] shutting down sender
+2024-08-14 21:56:13,536 INFO    SenderThread:17772 [file_pusher.py:finish():168] shutting down file pusher
+2024-08-14 21:56:13,536 INFO    SenderThread:17772 [file_pusher.py:join():173] waiting for file pusher

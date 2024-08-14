@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.11",
+    "heartbeatAt": "2024-08-14T16:21:46.933435",
+    "startedAt": "2024-08-14T16:21:45.711043",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Pramo\\trademarkia-classifier\\src\\train1.py",
+    "codePath": "src\\train1.py",
+    "git": {
+        "remote": null,
+        "commit": "426de884820c1df0d40d0b7ba34bdb44759ffbd8"
+    },
+    "email": "pramodkatta1@gmail.com",
+    "root": "C:/Users/Pramo/trademarkia-classifier",
+    "host": "Pramod",
+    "username": "pramod1",
+    "executable": "C:\\Users\\Pramo\\trademarkia-classifier\\venv\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 991.0,
+        "min": 0.0,
+        "max": 1190.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 991.0,
+            "min": 0.0,
+            "max": 1190.0
+        }
+    ],
+    "disk": {
+        "total": 343.85448837280273,
+        "used": 310.84212493896484
+    },
+    "memory": {
+        "total": 11.748180389404297
+    }
+}

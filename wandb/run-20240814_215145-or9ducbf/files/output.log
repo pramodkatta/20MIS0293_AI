@@ -1,0 +1,16 @@
+C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\huggingface_hub\file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Train Dataset Length: 44505
+Validation Dataset Length: 4946
+Traceback (most recent call last):
+  File "C:\Users\Pramo\trademarkia-classifier\src\train1.py", line 109, in <module>
+    main()
+  File "C:\Users\Pramo\trademarkia-classifier\src\train1.py", line 96, in main
+    train_loss = train_epoch(model, train_loader, loss_fn, optimizer, device)
+  File "C:\Users\Pramo\trademarkia-classifier\src\train1.py", line 26, in train_epoch
+    loss.backward()
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\autograd\__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
