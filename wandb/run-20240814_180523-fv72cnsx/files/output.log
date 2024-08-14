@@ -1,0 +1,51 @@
+C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\huggingface_hub\file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Train Dataset Length: 4450
+Validation Dataset Length: 495
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x0000022B309068C0>
+Traceback (most recent call last):
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\utils\data\dataloader.py", line 1479, in __del__
+    self._shutdown_workers()
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\utils\data\dataloader.py", line 1443, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\multiprocessing\process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\multiprocessing\popen_spawn_win32.py", line 108, in wait
+    res = _winapi.WaitForSingleObject(int(self._handle), msecs)
+KeyboardInterrupt:
+Traceback (most recent call last):
+  File "C:\Users\Pramo\trademarkia-classifier\src\train.py", line 108, in <module>
+    main()
+  File "C:\Users\Pramo\trademarkia-classifier\src\train.py", line 95, in main
+    train_loss = train_epoch(model, train_loader, loss_fn, optimizer, device)
+  File "C:\Users\Pramo\trademarkia-classifier\src\train.py", line 21, in train_epoch
+    outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Pramo\trademarkia-classifier\src\model.py", line 50, in forward
+    outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\transformers\models\bert\modeling_bert.py", line 1022, in forward
+    encoder_outputs = self.encoder(
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\transformers\models\bert\modeling_bert.py", line 612, in forward
+    layer_outputs = layer_module(
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\transformers\models\bert\modeling_bert.py", line 539, in forward
+    layer_output = apply_chunking_to_forward(
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\transformers\pytorch_utils.py", line 239, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\transformers\models\bert\modeling_bert.py", line 551, in feed_forward_chunk
+    intermediate_output = self.intermediate(attention_output)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\transformers\models\bert\modeling_bert.py", line 451, in forward
+    hidden_states = self.dense(hidden_states)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Pramo\trademarkia-classifier\venv\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

@@ -7,8 +7,19 @@ def load_data(filepath):
     return pd.DataFrame(data)
 
 def preprocess_data(df):
+    # Filter by status and select relevant columns
     df = df[df['status'] == 'A']
     df = df[['description', 'class_id']]
+
+    # Filter out non-integer and invalid (0) class_id values
+    df = df[df['class_id'].apply(lambda x: x.isdigit() and int(x) > 0)]  # Keep only rows where class_id is a positive integer
+
+    # Convert class_ids to integers
+    df['class_id'] = df['class_id'].astype(int)
+
+    # Reset index after filtering
+    df = df.reset_index(drop=True)
+    
     return df
 
 if __name__ == "__main__":
